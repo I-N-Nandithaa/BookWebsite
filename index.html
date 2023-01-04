@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="bookwebsite.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color:black;">
+        <div class="container">
+            <a class="navbar-brand" href="#h">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/006/800/199/small/creative-abstract-book-feather-logo-design-vector.jpg" class="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active"  style="color: white;"id="navItem1" href="#">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#b" style="color:white;" id="navItem2">My Books</a>
+                    <a class="nav-link" href="#r" style="color:white;" id="navItem3">Recomendations</a>
+                    <a class="nav-link" href="#e" style="color:white;" id="navItem4">Explore</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column" id="h">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">The most anticipated books in January 2023 !</h1>
+            <button class="custom-button">Explore</button>
+        </div>
+    </div>
+
+
+
+    <div class="explore-book-section pt-5 pb-5">
+        <div id="b">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="book-section-heading">My Books</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow item-card p-3 mb-3">
+                            <img src="https://th.bing.com/th/id/OIP.-2vCeQdEw263APje2okWbgHaLH?w=178&h=267&c=7&r=0&o=5&pid=1.7" class="book-item-image w-100" />
+                            <h1 class="card-title">A darker shade of magic</h1>
+                            <a href="" class="item-link">
+                                Description
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow item-card p-3 mb-3">
+                            <img src="https://th.bing.com/th/id/OIP.B4n9HfUt6JaN8bNxvXxUOAHaMA?w=178&h=289&c=7&r=0&o=5&pid=1.7" class="book-item-image w-100"/>
+                            <h1 class="card-title">The seven husbands of Evelyn Hugo</h1>
+                            <a href="" class="item-link">
+                                Description
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="item-card shadow p-3 mb-3">
+                            <img src="data:image/jpeg;base64,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" class="book-item-image w-100" />
+                            <h1 class="card-title">Harry Potter and the Half-blood Prince</h1>
+                            <a href="" class="item-link">
+                                Description
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="item-card shadow p-3 mb-3">
+                            <img src="https://i.thenile.io/r1000/9780007527526.jpg?r=5ec797c7ea43f" class="book-item-image w-100"/>
+                            <h1 class="card-title">The Murder of Roger Ackyord</h1>
+                            <a href="" class="item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="item-card shadow p-3 mb-3">
+                            <img src="https://th.bing.com/th/id/OIP.hfQo9eShUnWE6RNf2NsWyQHaLW?w=178&h=274&c=7&r=0&o=5&pid=1.7" class="book-item-image w-100" />
+                            <h1 class="card-title">The Silent Patient</h1>
+                            <a href="" class="item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="item-card shadow p-3 mb-3">
+                            <img src="https://pro2-bar-s3-cdn-cf4.myportfolio.com/f8d9b77af65b98826bb7629ac6ccd4c3/f857a480743b2d978acad151_rw_1920.jpg?h=ce4e247f6ccdc4a595475319bec35fef" class="book-item-image w-100" />
+                            <h1 class="card-title">The Raven King</h1>
+                            <a href="" class="item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="item-card shadow p-3 mb-3">
+                            <img src="https://th.bing.com/th/id/OIP.uNIWyYmoKbx3U6_nppWWigHaLX?w=178&h=274&c=7&r=0&o=5&pid=1.7" class="book-item-image w-100"/>
+                            <h1 class="card-title">Six of Crows</h1>
+                            <a href="" class="item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="item-card shadow p-3 mb-3">
+                            <img src="https://th.bing.com/th/id/OIP.dCqz6IHwPAFYQZq8sDm-gQHaLc?w=178&h=275&c=7&r=0&o=5&pid=1.7" class="book-item-image w-100"/>
+                            <h1 class="card-title">Cress</h1>
+                            <a href="" class="item-link">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="explore-book-section pt-5 pb-5">
+        <div id="r">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="book-section-heading">Book Recomendations</h1>
+                        <p style="color:white; font-size: 20px;">Here is what we think you would like based on your book preferences<br>Read more books and give reviews to improve Recomendations </p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow item-card p-3 mb-3">
+                            <img src="https://th.bing.com/th/id/OIP.5dSdrrKfRcx0bNVlP-1S-AHaLK?w=178&h=269&c=7&r=0&o=5&pid=1.7" class="book-item-image w-100"/>
+                            <h1 class="card-title">The Gilded Wolves</h1>
+                            <a href="" class="item-link">
+                                Explore other Fantasy books
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="item-card shadow p-3 mb-3">
+                            <img src="https://th.bing.com/th/id/OIP.wcZjPkH4FZD5QYi_2kfxxAHaLS?w=178&h=271&c=7&r=0&o=5&pid=1.7" class="book-item-image w-100"/>
+                            <h1 class="card-title">Pride and Prejudice</h1>
+                            <a href="" class="item-link">
+                                Explore other Classics 
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="item-card shadow p-3 mb-3">
+                            <img src="https://th.bing.com/th/id/OIP.FbFjCxuh2eBy4klql9hbXQHaJn?w=140&h=181&c=7&r=0&o=5&pid=1.7" class="book-item-image w-100" />
+                            <h1 class="card-title">Gone Girl</h1>
+                            <a href="" class="item-link">
+                                Explore other Thrillers
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="item-card shadow p-3 mb-3">
+                            <img src="data:image/jpeg;base64,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" class="book-item-image w-100" />
+                            <h1 class="card-title">Project Hail Mary</h1>
+                            <a href="" class="item-link">
+                                Explore other Sci-Fi books
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+

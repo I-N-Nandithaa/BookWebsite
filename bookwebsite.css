@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.logo {
+    width: 80px;
+    height: 70px;
+}
+
+#navItem1 {
+    color: white;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: white;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: white;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: white;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://www.barnesandnoble.com/blog/wp-content/uploads/2022/12/PROD-25459_JanTrade_MostAnticipated_Blog_1227_1488x852_r3.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.custom-button {
+    color: white;
+    background-color:black;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.explore-book-section {
+    background-color: black;
+}
+
+.book-section-heading {
+    color:white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.book-item-image {
+    border-radius: 3px;
+    width: 100px;
+    height: 260px;
+}
+
+.card-title {
+    color: black;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.item-link {
+    color: blue;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.item-card {
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.title {
+    margin-bottom: 0;
+    margin-top: 17px;
+    font-size: 20px;
+    font-family: 'Verdana';
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
